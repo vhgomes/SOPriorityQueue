@@ -4,7 +4,7 @@ from RRobin import RoundRobin
 class SO:
     def __init__(self):
         self.filas = []
-        for i in range(4):
+        for i in range(1):
             self.filas.append(RoundRobin(i + 1, 2))
         self.filaatual = 0
         self.filassorted = sorted(self.filas, key=lambda a: a.priority, reverse=True)

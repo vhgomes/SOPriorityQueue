@@ -9,7 +9,7 @@ class RoundRobin:
         self.priority = random.randint(1,10)
         self.finished = False
         self.currentprocess = 0
-        self.process = [PCB(random.randint(1,10000), random.randint(1,5))]
+        self.process = [PCB(random.randint(1,10000), random.randint(1,5)) for _ in range(processos)]
 
     def __str__(self) -> str:
         return f"Prioridade: {self.priority}"
