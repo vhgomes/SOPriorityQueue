@@ -7,5 +7,6 @@ Objetivo desse trabalho e aplicar um algoritmo de escalonamento em filas de proc
 
 Para rodar o codigo, basta apenas iniciar o script no main.py.
 
-## Observações
-- Por algum motivo que ainda não descobri, funciona apenas com um processo por fila. 
+## Utilitarios
+
+Link para o Git: https://github.com/vhgomes/SOPriorityQueue
